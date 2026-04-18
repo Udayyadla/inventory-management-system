@@ -1,0 +1,76 @@
+{
+  "categories": [
+    { "name": "Electronics", "description": "Devices and electronic gadgets" },
+    { "name": "Furniture", "description": "Home and office furniture" },
+    { "name": "Groceries", "description": "Daily household food items" },
+    { "name": "Clothing", "description": "Men and women apparel" },
+    { "name": "Footwear", "description": "Shoes, sandals, and accessories" },
+    { "name": "Books", "description": "Educational and recreational books" },
+    { "name": "Toys", "description": "Kids toys and games" },
+    { "name": "Sports", "description": "Sports equipment and gear" },
+    { "name": "Beauty", "description": "Cosmetics and personal care" },
+    { "name": "Automotive", "description": "Vehicle parts and accessories" }
+  ],
+  "suppliers": [
+    {
+      "name": "ABC Traders",
+      "email": "abc@suppliers.com",
+      "phone": "9876543210",
+      "address": "Mumbai"
+    },
+    {
+      "name": "Global Supplies",
+      "email": "global@suppliers.com",
+      "phone": "9123456780",
+      "address": "Delhi"
+    },
+    {
+      "name": "Prime Distributors",
+      "email": "prime@suppliers.com",
+      "phone": "9988776655",
+      "address": "Bangalore"
+    },
+    {
+      "name": "Quick Supply Co",
+      "email": "quick@suppliers.com",
+      "phone": "9090909090",
+      "address": "Chennai"
+    },
+    {
+      "name": "Urban Wholesale",
+      "email": "urban@suppliers.com",
+      "phone": "9012345678",
+      "address": "Hyderabad"
+    },
+    {
+      "name": "Metro Traders",
+      "email": "metro@suppliers.com",
+      "phone": "9345678123",
+      "address": "Pune"
+    },
+    {
+      "name": "National Distributors",
+      "email": "national@suppliers.com",
+      "phone": "9234567812",
+      "address": "Kolkata"
+    },
+    {
+      "name": "Super Supply Hub",
+      "email": "super@suppliers.com",
+      "phone": "9456123789",
+      "address": "Ahmedabad"
+    },
+    {
+      "name": "FastTrack Traders",
+      "email": "fasttrack@suppliers.com",
+      "phone": "9567812340",
+      "address": "Jaipur"
+    },
+    {
+      "name": "Reliable Suppliers",
+      "email": "reliable@suppliers.com",
+      "phone": "9678901234",
+      "address": "Lucknow"
+    }
+  ]
+}

@@ -28,6 +28,7 @@ class Supplier(BaseModel):
 
 class Category(BaseModel):
     name = models.CharField(max_length=255, null=False)
+    description = models.TextField(null=True, blank=True)
 
 class Warehouse(BaseModel):
     name = models.CharField(max_length=255, null=False)
