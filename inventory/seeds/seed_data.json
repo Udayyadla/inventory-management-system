@@ -11,66 +11,166 @@
     { "name": "Beauty", "description": "Cosmetics and personal care" },
     { "name": "Automotive", "description": "Vehicle parts and accessories" }
   ],
-  "suppliers": [
+  "addresses": [
     {
-      "name": "ABC Traders",
-      "email": "abc@suppliers.com",
-      "phone": "9876543210",
-      "address": "Mumbai"
+      "lane1": "12 MG Road",
+      "lane2": "Near Metro Station",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "400001"
     },
     {
-      "name": "Global Supplies",
-      "email": "global@suppliers.com",
-      "phone": "9123456780",
-      "address": "Delhi"
+      "lane1": "45 Brigade Road",
+      "lane2": "",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "country": "India",
+      "pincode": "560001"
     },
     {
-      "name": "Prime Distributors",
-      "email": "prime@suppliers.com",
-      "phone": "9988776655",
-      "address": "Bangalore"
+      "lane1": "78 Park Street",
+      "lane2": "Opp Mall",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India",
+      "pincode": "700016"
     },
     {
-      "name": "Quick Supply Co",
-      "email": "quick@suppliers.com",
-      "phone": "9090909090",
-      "address": "Chennai"
+      "lane1": "22 Anna Salai",
+      "lane2": null,
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "pincode": "600002"
     },
     {
-      "name": "Urban Wholesale",
-      "email": "urban@suppliers.com",
-      "phone": "9012345678",
-      "address": "Hyderabad"
+      "lane1": "90 Connaught Place",
+      "lane2": "Block A",
+      "city": "Delhi",
+      "state": "Delhi",
+      "country": "India",
+      "pincode": "110001"
     },
     {
-      "name": "Metro Traders",
-      "email": "metro@suppliers.com",
-      "phone": "9345678123",
-      "address": "Pune"
+      "lane1": "14 Banjara Hills",
+      "lane2": "Road No 2",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "pincode": "500034"
     },
     {
-      "name": "National Distributors",
-      "email": "national@suppliers.com",
-      "phone": "9234567812",
-      "address": "Kolkata"
+      "lane1": "33 FC Road",
+      "lane2": "",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "411004"
     },
     {
-      "name": "Super Supply Hub",
-      "email": "super@suppliers.com",
-      "phone": "9456123789",
-      "address": "Ahmedabad"
+      "lane1": "56 SG Highway",
+      "lane2": "Near Iskcon",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India",
+      "pincode": "380015"
     },
     {
-      "name": "FastTrack Traders",
-      "email": "fasttrack@suppliers.com",
-      "phone": "9567812340",
-      "address": "Jaipur"
+      "lane1": "11 MI Road",
+      "lane2": null,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "pincode": "302001"
     },
     {
-      "name": "Reliable Suppliers",
-      "email": "reliable@suppliers.com",
-      "phone": "9678901234",
-      "address": "Lucknow"
+      "lane1": "72 Hazratganj",
+      "lane2": "",
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "country": "India",
+      "pincode": "226001"
+    },
+    {
+      "lane1": "19 Sector 17",
+      "lane2": "Near Plaza",
+      "city": "Chandigarh",
+      "state": "Punjab",
+      "country": "India",
+      "pincode": "160017"
+    },
+    {
+      "lane1": "88 Rajpur Road",
+      "lane2": "",
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "country": "India",
+      "pincode": "248001"
+    },
+    {
+      "lane1": "25 MG Marg",
+      "lane2": null,
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "country": "India",
+      "pincode": "452001"
+    },
+    {
+      "lane1": "60 Civil Lines",
+      "lane2": "Near Park",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "440001"
+    },
+    {
+      "lane1": "10 Fraser Road",
+      "lane2": "",
+      "city": "Patna",
+      "state": "Bihar",
+      "country": "India",
+      "pincode": "800001"
+    },
+    {
+      "lane1": "44 Marine Drive",
+      "lane2": "Sea Facing",
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "400002"
+    },
+    {
+      "lane1": "5 Salt Lake",
+      "lane2": "Sector V",
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "country": "India",
+      "pincode": "700091"
+    },
+    {
+      "lane1": "77 Jubilee Hills",
+      "lane2": "",
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "pincode": "500033"
+    },
+    {
+      "lane1": "31 Vastrapur",
+      "lane2": null,
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India",
+      "pincode": "380052"
+    },
+    {
+      "lane1": "66 Camp Area",
+      "lane2": "",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "pincode": "411001"
     }
   ]
 }
