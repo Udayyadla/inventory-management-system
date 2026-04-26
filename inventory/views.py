@@ -1,4 +1,5 @@
 from rest_framework import generics
+from rest_framework.response import Response
 from .models import Inventory, Product, StockMovement, Supplier, Category, Warehouse
 from .serializers import (
     InventorySerializer,
@@ -18,6 +19,13 @@ class BaseDetailView(generics.RetrieveUpdateDestroyAPIView):
 class ProductList(BaseListCreateView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
+
+    def create(self,request,*args,**kwargs):
+        many = isinstance(request.data, list)
+        serializer = self.get_serializer(data=request.data, many=many)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        return Response(serializer.data)
 
 
 class ProductDetail(BaseDetailView):

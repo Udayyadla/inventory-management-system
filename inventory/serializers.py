@@ -10,6 +10,11 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = '__all__'
         read_only_fields = READ_ONLY_FIELDS
 
+    def create(self,validated_data):
+        if isinstance(validated_data,list):
+            return Product.objects.bulk_create([Product(**item) for item in validated_data])
+        return super().create(validated_data)
+
         
 
 class SupplierSerializer(serializers.ModelSerializer):
